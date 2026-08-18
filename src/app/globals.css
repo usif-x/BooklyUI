@@ -1,0 +1,17 @@
+@import '../styles/globals.css';
+
+/* App-level extras on top of the BoldKit neubrutalism system */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px hsl(var(--foreground));
+}
+
+/* Hard scrollbar for the cart drawer */
+.bk-scroll-brutal {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--foreground)) hsl(var(--muted));
+}
