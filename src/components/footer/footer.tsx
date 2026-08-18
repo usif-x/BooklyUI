@@ -121,8 +121,18 @@ export function Footer() {
 
       <div className="border-t-3 border-foreground bg-card">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-4 text-xs font-bold uppercase tracking-wide text-muted-foreground sm:flex-row">
-          <p>© 2026 BOOKLY — A DEMO STORE. NO REAL BOOKS WERE HARMED.</p>
-          <p>MADE WITH BOLDKIT · NEO-BRUTALISM</p>
+          <p>© 2026 BOOKLY</p>
+          <p>
+            BUILT BY{' '}
+            <a
+              href="https://yousseif.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground underline decoration-primary underline-offset-4 transition-colors hover:text-primary"
+            >
+              YOUSSEIF
+            </a>
+          </p>
         </div>
       </div>
     </footer>
